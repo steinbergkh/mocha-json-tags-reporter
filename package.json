@@ -1,0 +1,18 @@
+{
+  "name": "mocha-json-tags-reporter",
+  "version": "1.0.0",
+  "description": "Mocha reporter similar to \"JSON\" but with tag parsing for more detailed reporting.",
+  "main": "reporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mocha",
+    "reporter"
+  ],
+  "author": "Katie Steinberg",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^2.3.3"
+  }
+}
