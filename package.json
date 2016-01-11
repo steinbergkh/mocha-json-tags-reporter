@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steinbergkh/mocha-json-tags-reporter.git"
+  },
   "keywords": [
     "mocha",
     "reporter"
   ],
+  "bugs": {
+    "url": "https://github.com/steinbergkh/mocha-json-tags-reporter/issues"
+  },
+  "homepage": "https://github.com/steinbergkh/mocha-json-tags-reporter#readme",
   "author": "Katie Steinberg",
   "license": "MIT",
   "dependencies": {
