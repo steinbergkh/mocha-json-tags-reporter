@@ -65,7 +65,6 @@ function clean(test) {
     fullTitle: test.fullTitle(),
     cleanFullTitle: fullNameNoTags(test.fullTitle()),
     duration: test.duration,
-    currentRetry: test.currentRetry(),
     timedOut: test.timedOut,
     result: getResult(test),
     priority: getTestPriority(test.title),
