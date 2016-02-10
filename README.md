@@ -58,5 +58,42 @@ Then simply:
 
 The above example would output:
 ```
-TODO
+{
+  "stats": {
+    "suites": 3,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2016-01-27T19:18:59.286Z",
+    "end": "2016-01-27T19:18:59.290Z",
+    "duration": 4
+  },
+  "tests": [
+    {
+      "id": "CreateApple",
+      "title": "should create a new apple object, should not be null or undefined #CreateApple @p0",
+      "fullTitle": "Apple new Apple('String') should create a new apple object, should not be null or undefined #CreateApple @p0",
+      "cleanFullTitle": "Apple new Apple should create a new apple object should not be null or undefined",
+      "duration": 1,
+      "currentRetry": 0,
+      "timedOut": false,
+      "result": true,
+      "priority": "p0",
+      "err": {}
+    },
+    {
+      "id": "GetTypeMethod",
+      "title": "should return \"granny smith\" #GetTypeMethod @p1",
+      "fullTitle": "Apple getType() should return \"granny smith\" #GetTypeMethod @p1",
+      "cleanFullTitle": "Apple getType should return smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "timedOut": false,
+      "result": true,
+      "priority": "p1",
+      "err": {}
+    }
+  ]
+}
 ```

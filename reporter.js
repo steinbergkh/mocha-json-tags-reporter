@@ -97,7 +97,7 @@ function getResult(test){
  * @return {String}
  */
 function testId(testName){
-  var re = /#([A-z0-9-]*/; 
+  var re = /#([A-z0-9-]*)/; 
   var m;
   var testId = 'NO-ID'; // default test id
    
