@@ -1,6 +1,6 @@
 {
   "name": "mocha-json-tags-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mocha reporter similar to \"JSON\" but with tag parsing for more detailed reporting.",
   "main": "reporter.js",
   "scripts": {
